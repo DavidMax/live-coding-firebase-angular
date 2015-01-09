@@ -1,0 +1,21 @@
+#question-container {
+	width: 80%;
+    margin: 0 auto;
+}
+
+#question-body {
+	max-height: 300px;
+	overflow-y: scroll;
+}
+
+#question-user-input {
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border: 0px;
+      padding-left: 10px;
+      color: #fff; 
+	  background-color: transparent;
+  }
+#question-user-input input:active, #question-user-input input:focus {
+        color: #1d9dff;
+        border: 1px solid #FFF; }
